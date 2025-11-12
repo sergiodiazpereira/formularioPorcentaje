@@ -1,5 +1,8 @@
+html {
+    width: 1700px;
+}
+
 body{ /* El body por defecto tiene 8px de margin */
-    max-width: 1700px;
     width: 100%;
     font-family: Arial;
     margin: 0 auto;
@@ -119,4 +122,5 @@ main{
 
 .enviar{
     width: 99.5744%;
+
 }
