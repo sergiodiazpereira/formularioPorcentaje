@@ -1,0 +1,122 @@
+body{ /* El body por defecto tiene 8px de margin */
+    max-width: 1700px;
+    width: 100%;
+    font-family: Arial;
+    margin: 0 auto;
+}
+
+header{
+    padding: 1.17%;
+    background-color: #00334d;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    font-size: 250%; /* con respecto a la fuente del contenedor pader */
+}
+
+nav{
+    background-color: #006080;
+    padding: 1.17%;
+    text-align: center;
+}
+
+.divnav{
+    display: inline-block;
+    padding: 1.17%;
+    margin: 0 3.5294%;
+    background-color: #00334d;
+    color: #e6f2f8;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+main{
+    background-color: #ccc;
+    border: 5px solid #00334d; /* no se le puede aplicar porcentaje al grosor del borde (como mucho la medida 'em') */
+    text-align: center;
+    overflow: auto;
+    display: flex;
+}
+
+.divizquierdo{
+    background-color: #ccc;
+    width: 23.529%;
+    border-right: 5px solid #00334d;
+    flex: 0 0 23.529%;
+}
+
+.imagen{
+    margin: 7.5% auto;
+}
+
+.divizquierdo p{
+    margin: 0px 25%;
+    font-size: 125%;
+    font-weight: bold;
+    text-align: left;
+}
+
+.divizquierdo a{
+    display: inline-block;
+    padding: 3.75%;
+    background-color: #00334d;
+    color: #e6f2f8;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 7.5%;
+    font-size: 93.75%;
+}
+
+.divcentral{
+    width: 71.47%;
+    padding: 1.7647%;
+    flex: 1;
+}
+
+.introform{
+    text-align: left;
+}
+
+.introform h3{
+    font-weight: bold;
+    font-size: 125%;
+}
+
+.formulario{
+    border: 2px solid #006080;
+    background-color: #e6f2f8;
+    padding: 1.65%;
+    margin-top: 3.2921%;
+    text-align: left;
+}
+
+.inputs{
+    margin: 0.8510%;
+    color: blue;
+    border: 2px solid #00334d;
+}
+
+.inputsch{
+    margin: 0px 10px; /* no consigo cuadrarlo */
+}
+
+.labelsblock{
+    display: block;
+    margin-top: 0.884%;
+    font-weight: bold;
+}
+
+.labels{
+    font-weight: bold;
+}
+
+.labelch{
+    display: inline-block;
+    margin: 0.884% 0px;
+}
+
+.enviar{
+    width: 99.5744%;
+}

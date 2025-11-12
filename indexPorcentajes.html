@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Formulario de medioambiente con width submit</title>
+        <link rel="stylesheet" href="stylePorcentajes.css">
+    </head>
+    <body>
+        <header>
+            <h1>FORMULARIO DEL MEDIOAMBIENTE</h1>
+        </header>
+        <nav>
+            <a href="./paginaArtico.html" class="divnav">FORMULARIO ORIGINAL</a>
+            <a class="divnav" href="https://www.youtube.com/watch?v=U9zh4Q9moA">ENLACE A VIDEO DEL MEDIOAMBIENTE</a>
+            <a class="divnav" href="https://climate.nasa.gov/vital-signs/arctic-sea-ice/">PAGINA WEB A LA NASA SOBRE EL HIELO</a>
+        </nav>
+        <main>
+            <div class="divizquierdo">
+                <img class="imagen" src="Imagenes/Emisiones-contaminacion-paises.png.webp" width="200px">
+                <p>El derretimiento del Ártico está acelerando el
+                   cambio climático y afectando a ecosistemas enteros. 
+                   Infórmate y participa con tu compromiso ambiental.</p>
+                <a href="https://www.un.org/es/climatechange/arctic">PAGINA WEB DE LA ONU SOBRE EL DESHIELO</a>
+            </div>
+            <div class="divcentral">
+                <div class="introform">
+                    <h3>FORMULARIO</h3>
+                    <p>El deshielo del Ártico avanza a un ritmo sin precedentes, afectando a la fauna, 
+                       los océanos y el clima de todo el planeta. Tu opinión y tus acciones son esenciales
+                       para generar conciencia y promover cambios reales.</p>
+                </div>
+                <form action="./formularioHTML.php" method="GET" class="formulario">
+                    <label class="labels" for="text">Nombre:</label>
+                    <input class="inputs" type="text" id="text" name="texto"></input><br/>
+                    <label class="labels" for="number">Año de nacimiento:</label>
+                    <input class="inputs" type="number" id="number" name="numero"></input><br/>
+                    <label class="labels" for="pais">País:</label>
+                    <select class="inputs" id="pais" name="pais">
+                        <option value="">Selecciona tu país</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="chile">Chile</option>
+                        <option value="mexico">México</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="peru">Perú</option>
+                        <option value="espana">España</option>
+                        <option value="venezuela">Venezuela</option>
+                        <option value="ecuador">Ecuador</option>
+                        <option value="uruguay">Uruguay</option>
+                        <option value="bolivia">Bolivia</option>
+                    </select><br/>
+
+                    <label class="labelsblock">¿Reciclas?</label>
+                    <label class="labelch"><input class="inputsch" type="radio" name="radio" value="si"> Sí</label>
+                    <label class="labelch"><input class="inputsch" type="radio" name="radio" value="no"> No</label><br/>
+
+                    <label class="labelsblock">¿Cómo contribuyes al medio ambiente?</label>
+                    <label class="labelch"><input class="inputsch" type="checkbox" name="checkbox[]" value="Reutilizando"> Reutilizando</label>
+                    <label class="labelch"><input class="inputsch" type="checkbox" name="checkbox[]" value="Ahorro agua"> Ahorro agua</label>
+                    <label class="labelch"><input class="inputsch" type="checkbox" name="checkbox[]" value="Ahorro luz"> Ahorro luz</label>
+                    <label class="labelch"><input class="inputsch" type="checkbox" name="checkbox[]" value="Ahorro gas"> Ahorro gas</label>
+                    <label class="labelch"><input class="inputsch" type="checkbox" name="checkbox[]" value="Uso energ. renovable"> Uso energ. renovable</label><br/>
+
+                    <input type="submit" class="enviar" name="Enviar"></button>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
