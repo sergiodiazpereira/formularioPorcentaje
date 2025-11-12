@@ -1,5 +1,6 @@
 html {
     width: 1700px;
+    margin: 0 auto;
 }
 
 body{ /* El body por defecto tiene 8px de margin */
@@ -124,3 +125,4 @@ main{
     width: 99.5744%;
 
 }
+
